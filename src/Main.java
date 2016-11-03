@@ -6,7 +6,7 @@ public class Main {
 			EmployeTempsPartiel C=new EmployeTempsPartiel();
 			A.jeSuis();
 			System.out.println(A.ChequePaie());
-		    System.out.println("-------------------------------------------------");
+		        System.out.println("-------------------------------------------------");
 			B.jeSuis();
 			System.out.println(B.ChequePaie());
 			System.out.println("-------------------------------------------------");
