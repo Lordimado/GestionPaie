@@ -45,8 +45,8 @@ public class Employe {
 				this.salaire=salaire;
 			}
 			
-			public String ChequePaie(){
-				return "Payer a l'ordre de "+this.getNom()+" ("+this.getFonction()+") ***"+this.getSalaire()+" DA //Employe";
+			public String ChequePaie(){ //les attributs sont accessibles dans la meme classe pas besoin des getter
+				return "Payer a l'ordre de "+this.nom+" ("+this.fonction+") ***"+this.salaire+" DA //Employe";
 			}
 			
 			
